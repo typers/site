@@ -13,7 +13,7 @@ p, a {
   width: 100%;
   height: 100vh; }
   .presentation .background {
-    background: url('assets/img/presentation_background.gif') no-repeat top center;
+    background: url('/site/assets/img/presentation_background.gif') no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
     width: inherit;
