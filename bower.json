@@ -1,0 +1,22 @@
+{
+  "name": "typers-site",
+  "version": "0.0.1",
+  "authors": [
+    "Guilherme Oderdenge <guilhermeoderdenge@gmail.com>"
+  ],
+  "description": "The official Typers website.",
+  "main": "index.html",
+  "keywords": [
+    "Typers",
+    "Fonts",
+    "Font",
+    "Manager",
+    "Dependencies"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.3.0",
+    "animate.css": "~3.2.0"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "typers-site",
+  "version": "0.0.1",
+  "description": "The official Typers website.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Typers",
+    "Fonts",
+    "Fonts",
+    "Manager",
+    "Fonts",
+    "Dependencies",
+    "Typography"
+  ],
+  "author": "Guilherme Oderdenge <guilherme@oderdenge.com> (http://oderdenge.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.8.9",
+    "gulp-concat-css": "^1.1.0",
+    "gulp-sass": "^1.2.2"
+  }
+}

@@ -1,0 +1,88 @@
+body, html {
+  min-height: 100%; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif; }
+
+p, a {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300; }
+
+.presentation {
+  background-color: #111;
+  width: 100%;
+  height: 100vh; }
+  .presentation .background {
+    background: url('/assets/img/presentation_background.gif') no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    z-index: 0;
+    opacity: 0.3; }
+  .presentation .container {
+    display: table;
+    position: relative;
+    z-index: 2; }
+  .presentation .context {
+    height: 100vh;
+    display: table-cell;
+    vertical-align: middle; }
+  .presentation h1 {
+    color: #5edbff;
+    text-align: center;
+    text-transform: uppercase; }
+  .presentation p.lead {
+    color: #fff;
+    text-align: center; }
+    .presentation p.lead .highlight {
+      border-bottom: 2px dotted #5edbff; }
+  .presentation .navigator {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0; }
+    .presentation .navigator nav {
+      text-align: center; }
+      .presentation .navigator nav ul {
+        margin: 0;
+        padding: 0;
+        line-height: 50px; }
+        .presentation .navigator nav ul li {
+          list-style: none;
+          display: inline-block;
+          margin-right: 25px; }
+          .presentation .navigator nav ul li a {
+            color: #5edbff;
+            transition: color 0.1s; }
+            .presentation .navigator nav ul li a:hover {
+              color: #fff; }
+
+.content {
+  padding: 60px 0; }
+  .content hr.double {
+    border-top: 1px dotted #f2f2f2;
+    border-bottom: 1px dotted #f2f2f2;
+    padding: 10px 0;
+    margin: 60px 0; }
+
+.sidebar.afix {
+  position: fixed;
+  top: 0; }
+
+.board section .col-block:first-child {
+  background-color: black; }
+.board section h3 {
+  text-transform: uppercase; }
+.board section p {
+  font-size: 1.6rem;
+  color: #666; }
+  .board section p.lead {
+    font-size: 2rem; }
+.board section .col-block:first-child {
+  padding-top: 0; }
+.board section .col-block {
+  padding-top: 30px; }
+  .board section .col-block:first-child {
+    padding-top: 0 !important; }
