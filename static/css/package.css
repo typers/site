@@ -10998,7 +10998,7 @@ a {
 }
 
 .presentation .background {
-  background: url("site/assets/img/presentation_background.gif") no-repeat top center;
+  background: url("/site/assets/img/presentation_background.gif") no-repeat top center;
   background-size: cover;
   background-attachment: fixed;
   width: inherit;
