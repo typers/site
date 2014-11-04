@@ -19,7 +19,7 @@ p, a {
   height: 100vh;
 
   .background {
-    background: url('/assets/img/presentation_background.gif') no-repeat top center;
+    background: url('assets/img/presentation_background.gif') no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
     width: inherit;
@@ -108,15 +108,6 @@ p, a {
 }
 
 .board {
-
-  section {
-     .col-block {
-      &:first-child {
-        background-color: black;
-      }
-    }
-  }
-
   section {
     h3 {
       text-transform: uppercase;

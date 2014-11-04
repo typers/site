@@ -71,8 +71,6 @@ p, a {
   position: fixed;
   top: 0; }
 
-.board section .col-block:first-child {
-  background-color: black; }
 .board section h3 {
   text-transform: uppercase; }
 .board section p {
