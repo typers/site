@@ -20,6 +20,16 @@
   "devDependencies": {
     "gulp": "^3.8.9",
     "gulp-concat-css": "^1.1.0",
-    "gulp-sass": "^1.2.2"
+    "gulp-sass": "^1.2.2",
+    "gulp-webpack": "^1.1.0",
+    "gulp-webserver": "^0.8.7",
+    "jsx-loader": "^0.12.2",
+    "webpack": "^1.4.13"
+  },
+  "dependencies": {
+    "backbone": "^1.1.2",
+    "jquery": "^2.1.1",
+    "react": "^0.12.1",
+    "underscore": "^1.7.0"
   }
 }

@@ -10951,26 +10951,6 @@ Copyright (c) 2013 Daniel Eden
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 
-/* latin-ext */
-
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v11/UyBMtLsHKBKXelqf4x7VRQ.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-}
-
-/* latin */
-
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v11/7aC-Y4V2UPHQp-tqeekgkA.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
-
 body,
 html {
   min-height: 100%;
@@ -10998,7 +10978,7 @@ a {
 }
 
 .presentation .background {
-  background: url("/site/assets/img/presentation_background.gif") no-repeat top center;
+  background: url(/assets/img/presentation_background.gif) no-repeat top center;
   background-size: cover;
   background-attachment: fixed;
   width: inherit;
@@ -11106,4 +11086,43 @@ a {
 
 .board section .col-block:first-child {
   padding-top: 0 !important;
+}
+
+.core-team ul {
+  margin: 0;
+  padding: 0;
+}
+
+.core-team ul li {
+  list-style: none;
+  margin-right: 25px;
+  display: inline-block;
+}
+
+.core-team ul li.you {
+  width: 120px;
+  height: 120px;
+  position: relative;
+  border: 1px dashed #999;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.core-team ul li.you h4 {
+  line-height: 120px;
+  color: #999;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.core-team ul li img {
+  width: 120px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
 }
